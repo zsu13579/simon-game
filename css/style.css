@@ -1,0 +1,221 @@
+body{
+  background-color: #E6CCA7;
+  color:  #333;
+  font-family: "Microsoft YaHei";
+}
+h1{
+  margin-left: 30px;
+  font-size:  50px;
+  font-weight:  900;
+  font-family: "Microsoft YaHei";
+  color:  #333;
+  margin-bottom:  10px;
+}
+sup{
+  font-size:  16px;
+  color:  #333;
+}
+
+#cnt{
+  height:  30px;
+  width:  50px;
+  background-color:  #32050C;
+  margin-left:  30px;
+  margin-top: -3px;
+  border-radius:  6px;
+  display: block;
+  position: absolute;
+  text-align:  center;
+  color:  red;
+  border:  3px solid #333;
+  font-size:  20px;
+}
+
+#cnt p{
+  text-align:  center;
+  color:  red;
+  margin-top:  2px;
+  font-size:  20px;
+}
+
+#start{
+  margin-top:  3px;
+  height:  25px;
+  width:  25px;
+  background-color:  #333;
+  margin-left:  100px;
+  border-radius:  50%;
+  display: block;
+  position: absolute;
+}
+
+#instart{
+  margin-top:  6px;
+  height:  17px;
+  width:  17px;
+  background-color:  red;
+  margin-left:  104px;
+  border-radius:  50%;
+  display: block;
+  position: absolute;
+  cursor:  pointer;
+}
+
+#strict{
+  margin-top:  3px;
+  height:  25px;
+  width:  25px;
+  background-color:  #333;
+  margin-left:  150px;
+  border-radius:  50%;
+  display: block;
+  position: absolute;
+}
+
+#instrict{
+  margin-top:  6px;
+  height:  17px;
+  width:  17px;
+  background-color:  yellow;
+  margin-left:  154px;
+  border-radius:  50%;
+  display: block;
+  position: absolute;
+  cursor:  pointer;
+  
+}
+
+#strictlight{
+  margin-top:  -10px;
+  height:  8px;
+  width:  8px;
+  background-color:  #32050C;
+  margin-left:  157px;
+  border-radius:  50%;
+  display: block;
+  position: absolute;
+  border:  1px solid #333;
+}
+
+.word{
+  position:  absolute;
+  margin-top:  40px;
+  font-size:  11px;
+  font-weight:  800;
+}
+
+#cntword{
+  margin-left: 35px;
+}
+
+#startword{
+  margin-left: 95px;
+}
+
+#strictword{
+  margin-left: 146px;
+}
+
+#onoff{
+  height:  25px;
+  width:  50px;
+  background-color:  #333;
+  margin-left:  88px;
+  margin-top:  68px;
+  border-radius:  1px;
+  display: block;
+  position: absolute;
+  cursor:  pointer;
+}
+
+#onoffpoint{
+  height:  23px;
+  width:  25px;
+  background-color:  #3193DE;
+  margin-left:  89px;
+  margin-top:  69px;
+  border-radius:  3px;
+  display: block;
+  position: absolute;
+  cursor:  pointer;
+}
+
+#onword{
+  margin-left: 146px;
+  margin-top:  72px;
+}
+
+#offword{
+  margin-left: 56px;
+  margin-top:  72px;
+}
+
+.main-container{
+  background-color: #333;
+  height: 460px;
+  width: 460px;
+  margin: 80px auto;
+  border-radius: 50%;
+}
+
+
+.sx1{
+  background-color: #00A74A;
+  height: 190px;
+  width: 190px;
+  border-top-left-radius: 100%;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.sx2{
+  background-color: #9F0F17;
+  height: 190px;
+  width: 190px;
+  border-top-right-radius: 100%;
+  margin-top: 30px;
+  margin-left: 240px;
+  position: absolute;
+}
+
+.sx3{
+  background-color: #094A8F;
+  height: 190px;
+  width: 190px;
+  border-bottom-right-radius: 100%;
+  margin-top: 240px;
+  margin-left: 240px;
+  position: absolute;
+}
+
+.sx4{
+  background-color: #CCA707;
+  height: 190px;
+  width: 190px;
+  border-bottom-left-radius: 100%;
+  margin-top: 240px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.outer-pan{
+  background-color: #333;
+  height: 240px;
+  width: 240px;
+  margin: 110px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 998;
+}
+.inner-pan{
+  background-color: white;
+  height: 220px;
+  width: 220px;
+  margin: 10px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+}
+
+
